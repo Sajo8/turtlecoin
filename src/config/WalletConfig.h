@@ -23,14 +23,14 @@ namespace WalletConfig
     const std::string addressBookFilename = ".addressBook.json";
 
     /* The name of your deamon */
-    const std::string daemonName = "Bitriald";
+    const std::string daemonName = "Tomand";
 
     /* The name to call this wallet */
     const std::string walletName = "zedwallet";
 
     /* The name of service/walletd, the programmatic rpc interface to a
        wallet */
-    const std::string walletdName = "bitrial-service";
+    const std::string walletdName = "toman-service";
 
     /* The full name of your crypto */
     const std::string coinName = std::string(CryptoNote::CRYPTONOTE_NAME);
