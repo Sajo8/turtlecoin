@@ -263,7 +263,7 @@ const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 };
 
 const char* const SEED_NODES[] = {
-  "185.94.99.182",//ehsan
-  "142.93.28.194" //watter
+  "185.94.99.182:15897",//ehsan
+  "142.93.28.194:15897" //watter
 };
 } // CryptoNote
