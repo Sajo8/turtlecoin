@@ -151,8 +151,8 @@ add_dependencies(WalletApi version)
 
 # Finally build the binaries
 set_property(TARGET TurtleCoind PROPERTY OUTPUT_NAME "TomanD")
-set_property(TARGET zedwallet PROPERTY OUTPUT_NAME "zedwallet")
-set_property(TARGET zedwallet++ PROPERTY OUTPUT_NAME "zedwallet-beta")
+set_property(TARGET zedwallet PROPERTY OUTPUT_NAME "TomanWallet")
+set_property(TARGET zedwallet++ PROPERTY OUTPUT_NAME "TomanWallet-beta")
 set_property(TARGET service PROPERTY OUTPUT_NAME "toman-service")
 set_property(TARGET miner PROPERTY OUTPUT_NAME "miner")
 set_property(TARGET cryptotest PROPERTY OUTPUT_NAME "cryptotest")
